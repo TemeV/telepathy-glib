@@ -1,6 +1,6 @@
 Name: telepathy-glib
 Summary: GLib bindings for Telepathy
-Version: 0.20.0
+Version: 0.24.1
 Release: 1
 Group: System/Libraries
 License: LGPLv2+
@@ -19,14 +19,14 @@ Description: |
     including instant messaging, IRC, voice calls and video calls.
 
 Requires:
-    - glib2 >= 2.32.0
+    - glib2 >= 2.36.0
 
 PkgConfigBR:
     - dbus-glib-1 >= 0.90
     - dbus-1 >= 0.95
-    - glib-2.0 >= 2.32.0
-    - gobject-2.0 >= 2.32.0
-    - gio-2.0 >= 2.32.0
+    - glib-2.0 >= 2.36.0
+    - gobject-2.0 >= 2.36.0
+    - gio-2.0 >= 2.36.0
 PkgBR:
     - libxslt
     - python
